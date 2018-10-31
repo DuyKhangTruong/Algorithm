@@ -63,7 +63,7 @@ g.addEdge(4, 5, -2)
 
 s = 1
 
-print ("Following are shortest distances from source %d " % s)
+print ("Following are the shortest distances from source %d " % s)
 g.DAG_SHORTEST_PATHS(s)
 
 
